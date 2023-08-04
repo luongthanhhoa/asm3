@@ -1,0 +1,57 @@
+@media screen and (max-width: 992px) {
+  /* responsive  căn chỉnh phần thông tin cá nhân*/
+  .img-354146702 {
+    display: none;
+  }
+  /*  responsive căn chỉnh phần thông tin nghề nghiệp*/
+  .col-4 {
+    width: 49%;
+  }
+
+  #hobby .item .iconHobby {
+    font-size: 10px;
+    margin-right: 8px;
+  }
+  /* reponsive phần chứng chỉ / giải thưởng*/
+  #certificate h2 {
+    padding-left: 90px;
+  }
+  .bg-grey {
+    display: block;
+  }
+  .bg-grey img {
+    width: 100%;
+  }
+  .bg-grey-text {
+    margin: 0px;
+    font-size: 14px;
+  }
+  .h3,
+  h3 {
+    font-size: calc(1.1rem + 0.2vw);
+  }
+  .img-bg-grey-text {
+    width: 100%;
+  }
+  /*  responsive căn chỉnh cho phần dự án*/
+  #project h2 {
+    padding-left: 90px;
+  }
+  #project .col-4 {
+    width: 32%;
+  }
+  .h4,
+  h4 {
+    font-size: calc(1rem + 0vw);
+  }
+  .item-1 {
+    display: flex;
+    padding: 0 5px;
+  }
+  #project i {
+    display: block;
+  }
+  .bg-grey-text p {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,40 @@
+@media screen and (max-width: 500px) {
+  /* reponsive phần navbar*/
+  #certificate .section-container {
+    display: block;
+  }
+
+  .navbar {
+    display: block !important;
+  }
+  .nav,
+  .nava3 {
+    font-size: 14px;
+    padding-top: 20px;
+    flex-basis: auto;
+    align-items: center;
+    align-self: center !important;
+    border: none !important;
+  }
+  .nava3 {
+    display: none;
+  }
+  /* reponsive phần thông tin cá nhân*/
+  .row {
+    grid-template-columns: 1fr !important;
+  }
+  /* reponsive phần thông tin nghề nghiệp chứng chỉ / giải thưởng*/
+  .row-12 {
+    display: flex !important;
+  }
+  .col-4 {
+    width: 100% !important;
+  }
+  /* reponsive phần chứng chỉ / giải thưởng*/
+  #certificate h2 {
+    padding-left: 45px;
+  }
+  #project h2 {
+    padding-left: 45px;
+  }
+}
